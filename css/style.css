@@ -22,6 +22,17 @@ body {
     font-size: 18px;
     background-color: var(--dark-cyan);
 }
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* card */
+.card {
+    width: 350px;
+    background-color: #fff;
+    margin: 300px auto;
+}
 
 /* footer */
 

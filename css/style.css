@@ -56,12 +56,9 @@ body {
     padding: 20px 0;
 }
 
-.card-main h1 {
-    font-size: 1.6rem;
-}
-
 .card h1 {
     color: var(--dark-blue);
+    font-size: 1.6rem;
 }
 
 .card p, .card span {
@@ -74,7 +71,11 @@ body {
 
 .card-stats{
     border-top: 1px solid var(--dark-grey);
-    padding: 25px;
+    padding: 30px;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
 }
 
 /* footer */

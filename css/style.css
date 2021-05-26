@@ -1,3 +1,6 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 /* reset */
 * {
     padding: 0;
@@ -5,6 +8,10 @@
     box-sizing: border-box;
 }
 
+/* base styles */
+body {
+    font-family: 'Kumbh Sans', sans-serif
+}
 
 /* footer */
 

@@ -1,0 +1,19 @@
+/* footer */
+
+footer {
+    position: relvetive;
+}
+
+.attribution { 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

@@ -51,6 +51,32 @@ body {
     border-radius: 50%;
 }
 
+.card-main {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.card-main h1 {
+    font-size: 1.6rem;
+}
+
+.card h1 {
+    color: var(--dark-blue);
+}
+
+.card p, .card span {
+    color: var(--dark-grey);
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card-stats{
+    border-top: 1px solid var(--dark-grey);
+    padding: 25px;
+}
+
 /* footer */
 
 footer {

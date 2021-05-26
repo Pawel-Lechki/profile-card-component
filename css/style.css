@@ -25,6 +25,7 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    z-index: 100;
 }
 
 .page{
@@ -36,12 +37,14 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: -100;
 }
 
 .svg-bottom {
     position: fixed;
     bottom: 0;
     right: 0;
+    z-index: -100;
 }
 
 /* card */
@@ -54,6 +57,7 @@ body {
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
+
 }
 
 .card-top svg {

@@ -39,6 +39,11 @@ body {
     border-radius: 10px;
 }
 
+.card-top svg {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 .card-img{
     margin-top: -50px;
     
